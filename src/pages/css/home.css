@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+    color: #fff;
+}
+
+.bs{
+    padding: 25px;
+    text-align: center;
+    gap: 1rem;
+}

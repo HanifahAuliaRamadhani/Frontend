@@ -5,8 +5,6 @@ import {GiNotebook} from 'react-icons/gi';
 import './css.css';
 
 
-
-
 const Navbar = () => {
   const { isAuth }= useSelector(state => state.auth)
 
