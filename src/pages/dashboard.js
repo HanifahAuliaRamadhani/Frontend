@@ -11,7 +11,7 @@ const Dashboard = () => {
 
   const logout = async () => {
     try {
-      await onLogout()
+      await onLogout() 
 
       dispatch(unauthenticateUser())
       localStorage.removeItem('isAuth')
@@ -32,9 +32,9 @@ const Dashboard = () => {
     }
   }
 
-  useEffect(() => {
-    protectedInfo()
-  }, [])
+ useEffect(() => {
+  protectedInfo();
+ },)
 
   return loading ? (
     <Layout>
@@ -55,4 +55,3 @@ const Dashboard = () => {
 }
 
 export default Dashboard
-  

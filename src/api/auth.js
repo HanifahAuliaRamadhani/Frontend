@@ -13,9 +13,9 @@ export async function onLogin(loginData) {
 }
 
 export async function onLogout() {
-    return await axios.post('http://localhost:6400/api/logout')
+    return await axios.get('http://localhost:6400/api/logout')
 }
 
 export async function fetchProtectedInfo() {
-    return await axios.post('http://localhost:6400/api/protected')
+    return await axios.get('http://localhost:6400/api/protected')
 }

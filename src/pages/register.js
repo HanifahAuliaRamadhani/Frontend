@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Layout from "../components/layout";
 import { onRegistration } from '../api/auth';
 
 const Register = () => {
@@ -33,7 +32,7 @@ const Register = () => {
 
 // console.log(values)
     return (
-    <Layout>
+ 
       <form onSubmit={(e) => onSubmit(e)} className='container mt-3'>
         <h1>Register</h1>
 
@@ -76,7 +75,7 @@ const Register = () => {
           Submit
         </button>
       </form>
-    </Layout>
+   
     )
   }
   
